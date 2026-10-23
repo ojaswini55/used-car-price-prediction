@@ -6,7 +6,7 @@ from datetime import date
 
 ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / "car_price_model.joblib"
-DATA_PATH = ROOT / "dataset" / "car_data.csv"
+"car_data.csv" / "dataset" / "car_data.csv"
 
 st.set_page_config(page_title="Used Car Price Predictor", page_icon="🚗", layout="centered")
 
